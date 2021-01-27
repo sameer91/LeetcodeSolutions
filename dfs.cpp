@@ -26,17 +26,17 @@ void Graph::DFShelper(int s, bool *visited){
   list<int>::iterator i;
 
   for(i=adj[s].begin();i!=adj[s].end();++i){
-    if(!visited[*i]){
-      visited[*i]=true;
-      DFShelper(*i,visited);
-    }
+	if(!visited[*i]){
+	  visited[*i]=true;
+	  DFShelper(*i,visited);
+	}
   }
 }
 
 void Graph::DFS(int s){
   bool *visited = new bool[V];
   for (int i =0 ; i < V; ++i) {
-    visited[i]=false;
+	visited[i]=false;
   }
   visited[s]=true;
   DFShelper(s, visited);

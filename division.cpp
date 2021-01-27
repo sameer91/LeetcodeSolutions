@@ -10,7 +10,7 @@ int main() {
 
   res = ((double)a) / b;
 
-  cout << setprecision(8) << res;
+  cout << setprecision(8) << res <<endl;
 
   return 0;
 }
