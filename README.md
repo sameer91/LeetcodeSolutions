@@ -1,2 +1,2 @@
-# HackerRank
-HackerRaank solutions
+# Competetice Coding Solutions
+Practice solutions
