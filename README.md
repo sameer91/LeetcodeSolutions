@@ -1,2 +1,2 @@
-# Competetice Coding Solutions
+# Competetive Coding Solutions
 Practice solutions
