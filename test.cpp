@@ -1,21 +1,19 @@
-#include <iostream>
 #include <bits/stdc++.h>
+
 using namespace std;
 
-void superfilefunction(string s);
-
 int main(){
-	int i;
-	cin>>i;
-	vector<int> wtf;
-	vector<bool> visited;
-	string s;
-	cin>>s;
-
-	superfilefunction(s);
-	visited.size();
-	wtf.push_back(i);
-	cout<<wtf.front();
-	cout<<s<<endl;
+	for(int i=0;i<100;++i){
+		int fail;
+		for(int j = 0, fail = 0; j<100 && !fail; ++j){
+			cout<<j<<endl;
+			if(j % 10 == 0) {
+				fail=1;
+			}
+		}
+		if(!fail){
+			cout<<"not fail"<<endl;
+		}
+	}
 	return 0;
 }

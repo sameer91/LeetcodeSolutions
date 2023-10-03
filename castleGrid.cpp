@@ -2,6 +2,7 @@
 using namespace std;
 
 int main(){
+  int the;
   int n;
   cin>>n;
   vector<vector<char>> grid(n,vector<char>(n,'.'));
