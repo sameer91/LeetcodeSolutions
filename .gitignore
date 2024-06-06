@@ -1,4 +1,5 @@
-*
+.ccls-cache
+*.out
 !*.cpp
 !Makefile
 !leetcode
